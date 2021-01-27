@@ -1,0 +1,46 @@
+We gratefully acknowledge the following Authors for genome data were generated and shared via Genbank, on which this research is based. 
+
+  AUTHORS   DeRonde,S., Deuling,H. and Chen,J.
+
+  AUTHORS   Nickerson,D.A., Frazar,C.D., Lee,J., Pelle,B., Richardson,M.,
+            Adler,A., Brandstetter,E., Han,P.D., Fay,K., Ilcisin,M.,
+            Lacombe,K., Sibley,T.R., Truong,M., Wolf,C.R., Cowgill,K.,
+            Schrag,S., Duchin,J., Boeckh,M., Englund,J.A., Famulare,M.,
+            Lutz,B.R., Rieder,M.J., Starita,L.M., Thompson,M., Chu,H.Y.,
+            Bedford,T. and Shendure,J.
+            
+  AUTHORS   Fink,L.
+
+  AUTHORS   Plumb,M., Garfin,J. and Wang,X.
+
+  AUTHORS   Keller,E.
+
+  AUTHORS   Tao,Y., Zhang,J., Lynch,B., Li,Y., Queen,K., Uehara,A., Paden,C.R.,
+            Cook,P., Wang,H. and Tong,S.
+            
+  AUTHORS   Plumb,M., Garfin,J., Lorentz,A. and Wang,X.
+
+  AUTHORS   Li,Y., Zhang,J., Tao,Y., Lynch,B., Queen,K., Montmayeur,A.,
+            Uehara,A., Paden,C.R., Marine,R., Wang,H. and Tong,S.
+  
+  AUTHORS   Lorentz,A., Garfin,J., Plumb,M. and Wang,X.
+
+  AUTHORS   Gallagher,T., Young,E.L. and Oakeson,K.F.
+  
+
+  AUTHORS   Queen,K., Li,Y., Tao,Y., Uehara,A., Montmayeur,A., Paden,C.R.,
+            Cook,P.W., Marine,R., Sheth,M., Wang,H., Lee,J. and Tong,S.
+  
+  AUTHORS   Lemieux,J.E., Siddle,K.J., Shaw,B., Adams,G., Pierce,V.,
+            Turbett,S., Anahtar,M., Branda,J., Slater,D., Harris,J., Lin,A.E.,
+            Gladden-Young,A., Lagerborg,K., Rudy,M., DeRuff,K., Carter,A.,
+            Normandin,E., Bauer,M., Reilly,S., Tomkins-Tinch,C., Loreth,C.,
+            Chaluvadi,S., Neumann,A., Cusick,C., Chapman,S.B., Gnirke,A.,
+            Flowers,K., Cerrato,F., Birren,B.W., Gallagher,G., Smole,S.,
+            Park,D.J., MacInnis,B.L., Ryan,E., LaRocque,R., Rosenberg,E. and
+            Sabeti,P.C.
+
+  AUTHORS   Wu,F., Zhao,S., Yu,B., Chen,Y.-M., Wang,W., Hu,Y., Song,Z.-G.,
+            Tao,Z.-W., Tian,J.-H., Pei,Y.-Y., Yuan,M.L., Zhang,Y.-L.,
+            Dai,F.-H., Liu,Y., Wang,Q.-M., Zheng,J.-J., Xu,L., Holmes,E.C. and
+            Zhang,Y.-Z.
