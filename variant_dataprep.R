@@ -29,15 +29,25 @@ variant_files_501Y <- paste0("../table1Bnew/",
                              list.files(path = "../table1Bnew/",
                                         pattern = ".txt"))
 ## E484K Variants
-variant_files_484K <- paste0("../table2E484K//",
+variant_files_484K <- paste0("../table2E484K/",
                              list.files(path = "../table2E484K/",
                                         pattern = ".txt"))
+
+## K417T Variants
+variant_files_417T <- "../justMN/A22812C.txt"
+
+
+## K417N Variants
+variant_files_417N <- "../no-north-america-yet-gisaid/G22813T.txt"
 
 
 variant_files <- c(variant_files_677H,
                    variant_files_677H_corrected,
                    variant_files_501Y,
-                   variant_files_484K)
+                   variant_files_484K,
+                   variant_files_417T,
+                   variant_files_417N
+                   )
 
 
 variants_df <- data.frame(file = character(),
@@ -149,6 +159,7 @@ variants_locations_df <- variants_df %>%
       str_detect(accession, "_Wuhan_Hu_") ~ "Wuhan_Hu"
     )
   ) %>%
+  filter(!is.na(abbreviation)) %>% 
   left_join(abbreviations, by = "abbreviation") %>% 
   filter(country != "China")
 
