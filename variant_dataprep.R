@@ -19,14 +19,25 @@ library(stringr)
 variant_files_677H <- paste0("../table1Anew/",
                              list.files(path = "../table1Anew/",
                                         pattern = ".txt"))
+## 20G 677H Variants Corrected
+variant_files_677H_corrected <- paste0("../table1Anew/correctthem/",
+                             list.files(path = "../table1Anew/correctthem/",
+                                        pattern = ".txt"))
+
 ## 20G/501Y Variants
 variant_files_501Y <- paste0("../table1Bnew/",
                              list.files(path = "../table1Bnew/",
                                         pattern = ".txt"))
+## E484K Variants
+variant_files_484K <- paste0("../table2E484K//",
+                             list.files(path = "../table2E484K/",
+                                        pattern = ".txt"))
 
 
 variant_files <- c(variant_files_677H,
-                   variant_files_501Y)
+                   variant_files_677H_corrected,
+                   variant_files_501Y,
+                   variant_files_484K)
 
 
 variants_df <- data.frame(file = character(),
@@ -126,14 +137,20 @@ variants_locations_df <- variants_df %>%
       str_detect(accession, "_WV_") ~ "WV",
       str_detect(accession, "_WI_") ~ "WI",
       str_detect(accession, "_WY_") ~ "WY",
+      str_detect(accession, "_PR_") ~ "PR",
+      str_detect(accession, "_NMDOH_") ~ "NM",
       str_detect(accession, "_Canada_QC_") ~ "Canada_QC",
       str_detect(accession, "_Canada_ON_") ~ "Canada_ON",
       str_detect(accession, "_Canada_BC_") ~ "Canada_BC",
+      str_detect(accession, "_Canada_AB_") ~ "Canada_AB",
+      str_detect(accession, "_Canada_LTRI_") ~ "Canada_ON",
       str_detect(accession, "_Jamaica_") ~ "Jamaica",
       str_detect(accession, "_Mexico_TAM_") ~ "Mexico_TAM",
       str_detect(accession, "_Wuhan_Hu_") ~ "Wuhan_Hu"
     )
-  ) %>% left_join(abbreviations, by = "abbreviation")
+  ) %>%
+  left_join(abbreviations, by = "abbreviation") %>% 
+  filter(country != "China")
 
 
 
