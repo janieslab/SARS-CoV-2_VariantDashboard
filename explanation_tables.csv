@@ -1,10 +1,13 @@
 source,table,gene,nucleotide,position,reference,variant,mutation,cDNA,amino acid,cases,percentage in last month
 Tu et al. (2021) - Table 1A,1A,M,G26775T,26775,G,T,26775: G>T,c.253G>T,A85S,19,0.302
 Tu et al. (2021) - Table 1A,1A,N,G29402T,29402,G,T,29402: G>T,c.1129G>T,D377Y,24,0.381
+De Novo (Janies Lab),,ORF1ab,C1059T,1059,C,T,1059: C>T,,T265I,,
 Tu et al. (2021) - Table 1A,1A,ORF1ab,A1850G,1850,A,G,1850: A>G,c.1585A>G,I529V,8,0.127
 Tu et al. (2021) - Table 1B,1B,ORF1ab,C3261T,3261,G,T,3261: G>T,c.2996C>T,T999I,,
 Tu et al. (2021) - Table 1B,1B,ORF1ab,C3486T,3486,C,T,3486: C>T,c.3221C>T,A1074V,,
 Tu et al. (2021) - Table 1B,1B,ORF1ab,C4202T,4202,C,T,4202: C>T,c.3937C>T,L1313L,,
+De Novo (Janies Lab),,ORF1ab,G5230T,5230,G,T,5230: G>T,,K1655N,,
+De Novo (Janies Lab),,ORF1ab,C17999T,17999,C,T,17999: C>T,,T5912I,,
 Tu et al. (2021) - Table 1A,1A,ORF3a,G25563T,25563,G,T,25563: G>T,c.2741G>T,Q57H,3,0.048
 De Novo (Janies Lab),3,ORF3a,G25563C,25563,G,C,25563: G>C,,Q57H,,
 Tu et al. (2021) - Table 1B,1B,ORF8,G28048T,28048,G,T,28048: G>T,c.155G>T,R52I,,
@@ -19,3 +22,7 @@ De Novo (Janies Lab),,S,A23064C,23064,A,C,23064: A>C,,N501T,,
 Tegally et al. (2021),2,S,G23012A,23012,G,A,23012: G>A,,E484K,,
 Faria et al. (2021),2,S,A22812C,22812,A,C,22812: A>C,,K417T,,
 Faria et al. (2021),2,S,G22813T,22813,G,T,22813: G>T,,K417N,,
+De Novo (Janies Lab),,S,C23664T,23664,C,T,23664: C>T,,A701V,,
+De Novo (Janies Lab),,S,A21801C,21801,A,C,21801: A>C,,D80A,,
+De Novo (Janies Lab),,S,A22206G,22206,A,G,22206: A>G,,D215G,,
+De Novo (Janies Lab),,S,A23403G,23403,A,G,23403: A>G,,D614G,,
