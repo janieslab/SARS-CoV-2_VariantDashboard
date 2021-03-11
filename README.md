@@ -5,7 +5,7 @@ To view the interactive dashboard of SARS-CoV-2 variants, visit: https://janiesl
 
 ## Preprint Paper
 
-To view the medRxiv preprint, visit: https://www.medrxiv.org/content/10.1101/2021.01.27.21250648v1
+To view the medRxiv preprint, visit: https://www.medrxiv.org/content/10.1101/2021.01.27.21250648v1.
 
 ### How to cite:
 ```
