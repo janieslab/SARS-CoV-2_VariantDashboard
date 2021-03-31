@@ -179,6 +179,7 @@ variants_locations_df <- variants_df %>%
       str_detect(accession, "_UNC_") ~ "NC",
       str_detect(accession, "_JAM_JM_") ~ "Jamaica",
       str_detect(accession, "_VI_") ~ "VI",
+      str_detect(accession, "_FHCRC_") ~ "WA",
       
     )
   ) %>%
